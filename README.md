@@ -37,3 +37,11 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/amanullahmd/spring-crud.git
    cd spring-crud
+
+API Endpoints
+
+    POST /user/add: Add a new user
+    GET /user: Get a list of all users
+    GET /user/get?id={id}: Get user details by ID
+    PUT /user/update?id={id}: Update user details by ID
+    DELETE /user/delete/{id}: Delete user by ID
